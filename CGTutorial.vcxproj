@@ -22,7 +22,7 @@
     <ProjectGUID>{19810010-3733-4270-B7CA-5ABCC7901CC0}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
-    <ProjectName>CGTutorial</ProjectName>
+    <ProjectName>Kuerteil</ProjectName>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -314,17 +314,25 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="App.cpp" />
     <ClCompile Include="CGTutorial.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="ObjectLoader.cpp" />
     <ClCompile Include="objects.cpp" />
     <ClCompile Include="objloader.cpp" />
+    <ClCompile Include="RenderInformation.cpp" />
     <ClCompile Include="shader.cpp" />
     <ClCompile Include="texture.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">external\glfw-3.1.2\include;external\glew-1.13.0;external\glm-0.9.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="App.hpp" />
+    <ClInclude Include="GameObject.hpp" />
+    <ClInclude Include="ObjectLoader.hpp" />
     <ClInclude Include="objects.hpp" />
     <ClInclude Include="objloader.hpp" />
+    <ClInclude Include="RenderInformation.hpp" />
     <ClInclude Include="shader.hpp" />
     <ClInclude Include="texture.hpp" />
   </ItemGroup>
