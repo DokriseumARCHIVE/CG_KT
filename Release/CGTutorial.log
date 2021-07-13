@@ -1,0 +1,6 @@
+﻿C:\IDE\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1947,5): warning : The referenced project 'C:/Users/tj/Documents/OpenGL-tutorial_Binaries/external/GLEW_190.vcxproj' does not exist.
+C:\IDE\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1947,5): warning : The referenced project 'C:/Users/tj/Documents/OpenGL-tutorial_Binaries/external/GLFW_276.vcxproj' does not exist.
+C:\IDE\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1947,5): warning : The referenced project 'C:/Users/tj/Documents/OpenGL-tutorial_Binaries/ZERO_CHECK.vcxproj' does not exist.
+  CGTutorial.cpp
+LINK : warning LNK4098: Standardbibliothek "LIBCMT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
+  CGTutorial.vcxproj -> E:\Workspace\.studium\Computergrafik\CGTutorial - Minimal\Release\CGTutorial.exe
